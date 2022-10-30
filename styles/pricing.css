@@ -2,14 +2,17 @@
 
 .pricing-container {
 	font-family: Raleway, sans-serif;
+	background: #F5F5F5;
+	margin-bottom: 50px;
 }
 
-.pricing-container__price-info {
+.pricing-subcontainer__price-info {
 	width: 370px;
 	border: 2px solid #F5F5F5;
+	background: #FFF;
 }
 
-.pricing-container__price-info h4 {
+.pricing-subcontainer__price-info h4 {
 	font-size: 24px;
 	height: 60px;
 	background: #333;
@@ -19,7 +22,7 @@
 	border-bottom: 2px solid #F5F5F5;
 }
 
-.pricing-container__price-info h3 {
+.pricing-subcontainer__price-info h3 {
 	font-size: 36px;
 	height: 100px;
 	line-height: 100px;
@@ -29,7 +32,7 @@
 	border-bottom: 2px solid #F5F5F5;
 }
 
-.pricing-container__price-info h5 {
+.pricing-subcontainer__price-info h5 {
 	font-size: 18px;
 	height: 50px;
 	line-height: 50px;
@@ -39,7 +42,7 @@
 	color: #86878B;
 }
 
-.pricing-container__price-info h5.subtitle {
+.pricing-subcontainer__price-info h5.subtitle {
 	background: #333;
 	color: rgba(255, 255, 255, 0.5);
 }
@@ -52,12 +55,13 @@
 	margin: 0 auto;
 }
 
-.pricing-container__price-info {
+.pricing-subcontainer__price-info {
 	align-self: flex-end;
 }
 
-.pricing-container__price-info:nth-of-type(2) {
+.pricing-subcontainer__price-info:nth-of-type(2) {
 	align-self: flex-start;
+	filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
 }
 
 .pricing-container h2 {
