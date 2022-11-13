@@ -1,0 +1,156 @@
+.axit-container {
+    font-family: Open Sans, sans-serif;
+    background-image: url(../images/backgr.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.axit-container .background-axit {
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 185px;
+
+}
+
+.axit-container .background-axit .axit-logo {
+    padding-top: 231px;
+    /* padding-left: 170px; */
+}
+
+.axit-container .background-axit .axit-subcontainer {
+    margin-top: 72.88px;
+    /* margin-left: 170px; */
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.axit-container .background-axit .axit-separator {
+    margin-top: 55.12px;
+    /* margin-left: 170px; */
+    border: 1px solid #FFFFFF;
+    width: 170px;
+    height: 0;
+}
+
+.axit-container .background-axit h5 {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 42px;
+    /* margin-left: 170px; */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.axit-container .background-axit .download {
+    border: 2px solid #FFFFFF;
+    background: none;
+    width: 270px;
+    height: 58px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 42px;
+    cursor: pointer;
+    /* margin-left: 170px; */
+}
+
+.axit-container .background-axit .download:hover {
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.axit-container .background-axit .download:active {
+    background: #AB4949;
+    border: 2px solid #AB4949;
+    color: #fff;
+}
+
+.axit-container .background-axit .right-side {
+    margin-top: 208px;
+    margin-left: 30px;
+}
+
+.axit-container .background-axit .right-side .axit-subcontainer__inputs {
+    width: 470px;
+    height: 390px;
+    background: #FFFFFF;
+    border-radius: 10px 10px 0 0;
+}
+
+.axit-container .background-axit .right-side .axit-subcontainer__inputs h4 {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #333333;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
+    text-align: center;
+    height: 90px;
+    line-height: 90px;
+}
+
+.axit-container .background-axit .right-side .axit-subcontainer__inputs h4 span {
+    color: #EC7979;
+}
+
+.axit-container .background-axit .right-side .axit-subcontainer__inputs div.axit-subcontainer__inputs-list {
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.axit-container .background-axit .right-side .axit-subcontainer__inputs input {
+    display: inline-flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 370px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    height: calc(16px + 20px + 19px);
+
+}
+
+.axit-container .background-axit .right-side .axit-subcontainer__inputs input:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.axit-container .background-axit .right-side .axit-subcontainer__inputs input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+
+.axit-container .background-axit .right-side button {
+    border: none;
+    width: 470px;
+    height: 60px;
+    background-color: #EC7979;
+    border-radius: 0 0 10px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.axit-container .background-axit .right-side button:hover {
+    background: #AB4949;
+}
+
+.axit-container .background-axit .right-side button:active {
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}

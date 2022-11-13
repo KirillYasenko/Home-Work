@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
-
 .customers-container {
     font-family: Raleway, sans-serif;
     width: 1170px;
@@ -27,7 +25,7 @@ div.separator {
     margin: 0 auto;
 }
 
-.customers-container h5.customers-container__subtitle {
+.customers-container h5.customers-subcontainer__subtitle {
     color: #86878B;
     text-align: center;
     height: 21px;
@@ -36,13 +34,13 @@ div.separator {
     font-weight: 400
 }
 
-.customers-container section.customers-container__managers {
+.customers-container section.customers-subcontainer__managers {
     display: flex;
     justify-content: space-between;
     margin-top: 83px;
 }
 
-.customers-container section.customers-subcontainer__comments div.polygon {
+.customers-subcontainer__managers section.customers-subcontainer__comments div.polygon {
     border: none;
     margin-left: 70px;
     width: 30px;
@@ -53,7 +51,7 @@ div.separator {
     border-top: 20px solid #E2E2E2;
 }
 
-.customers-container section.customers-subcontainer__comments h5.text {
+.customers-subcontainer__managers section.customers-subcontainer__comments h5.text {
     width: 370px;
     height: 180px;
     border-radius: 10px;
@@ -69,16 +67,16 @@ div.separator {
     color: #86878B;
 }
 
-.customers-container section.customers-subcontainer__comments div.customers-subcontainer__manager {
+.customers-subcontainer__managers section.customers-subcontainer__comments div.customers-subcontainer__manager {
     display: flex;
     margin-top: 31px;
 }
 
-.customers-container section.customers-subcontainer__comments div.customers-subcontainer__manager div.name-customer {
+.customers-subcontainer__managers section.customers-subcontainer__comments div.customers-subcontainer__manager div.name-customer {
     margin-left: 30px;
 }
 
-.customers-container section.customers-subcontainer__comments div.customers-subcontainer__manager div.name-customer h4 {
+.customers-subcontainer__managers section.customers-subcontainer__comments div.customers-subcontainer__manager div.name-customer h4 {
     font-family: Open Sans, sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -87,12 +85,12 @@ div.separator {
     align-items: center;
 }
 
-.customers-container section.customers-subcontainer__comments div.customers-subcontainer__manager div.name-customer h5 {
+.customers-subcontainer__managers section.customers-subcontainer__comments div.customers-subcontainer__manager div.name-customer h5 {
     font-weight: 400;
     font-size: 18px;
     margin-top: 15px;
 }
 
-.customers-container section.customers-subcontainer__comments div.customers-subcontainer__manager img {
+.customers-subcontainer__managers section.customers-subcontainer__comments div.customers-subcontainer__manager img {
     margin-bottom: 15px;
 }

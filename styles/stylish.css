@@ -1,0 +1,70 @@
+.stylish-container {
+    background-image: url(../images/backgr2.png);
+    font-family: Raleway, sans-serif;
+    background-position: center;
+    background-size: cover;
+}
+
+.stylish-container .stylish-background {
+    background: rgba(0, 0, 0, 0.5);
+    height: 442px;
+    padding-top: 50px;
+}
+
+.stylish-container .stylish-background h2 {
+    font-weight: 400;
+    height: 150px;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.stylish-container .stylish-background .stylish-subcontainer__separator {
+    border: 1px solid #FFFFFF;
+    width: 170px;
+    margin: 0 auto;
+}
+
+.stylish-container .stylish-background h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.stylish-container .stylish-background .stylish__button-download {
+    border: 2px solid #FFFFFF;
+    background: none;
+    width: 270px;
+    height: 58px;
+    display: block;
+    margin: 0 auto ;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 73px;
+    cursor: pointer;
+}
+
+.stylish-container .stylish-background .stylish__button-download:hover {
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.stylish-container .stylish-background .stylish__button-download:active {
+    background: #AB4949;
+    border: 2px solid #AB4949;
+    color: #fff;
+}

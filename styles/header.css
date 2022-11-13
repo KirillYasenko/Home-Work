@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+header {
+    margin: 0 auto;
+    height: 75px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+header nav button {
+    font-size: 14px;
+    color: #fff;
+    background: none;
+    border: none;
+    width: 113.8px;
+    height: 100%;
+    cursor: pointer;
+}
+
+header nav {
+    margin-right: 170px;
+}
+
+header div.logo-container {
+    align-self: center;
+    margin-left: 115.28px;
+}
+
+header nav button:hover {
+    background: #EC7979;
+}
+
+header nav button:active {
+    background: #AB4949;
+}

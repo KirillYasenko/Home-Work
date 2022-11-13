@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap');
-
 .pricing-container {
 	font-family: Raleway, sans-serif;
 	background: #F5F5F5;
-	margin-bottom: 50px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .pricing-subcontainer__price-info {
